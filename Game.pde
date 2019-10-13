@@ -1,4 +1,8 @@
 class Game {
+int win=0;
+int draw=0;
+int lose=0;
+
 int score=0;
 String getJankenResult(String hand) {
  String cpuHand = this.desideCpuHand();
@@ -30,3 +34,11 @@ String desideCpuHand() {
  else return "Pa";
 }
 }
+
+String desideCpuHand() {
+ int cpuHandNum = (int)random(3);
+ if (cpuHandNum == 0) return "Gu";
+ else if (cpuHandNum == 1) return "Choki";
+ else return "Pa";
+}
+© 2019 GitHub, Inc.
