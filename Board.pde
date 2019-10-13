@@ -17,7 +17,7 @@ void updateCommentArea(String comment){
  textAlign(CENTER);
  text(comment, 225, 180);
  textSize(20);
- String scoreMessage = "Score:"+game.score;
+ String scoreMessage = "Win:"+game.win+" Draw:"+game.draw+ " Lose:"+game.lose;
  text(scoreMessage, 225, 200);
 }
   void updateResultArea(String result) {
@@ -29,3 +29,4 @@ void updateCommentArea(String comment){
     text(result, 225, 260);
   }
 }
+
