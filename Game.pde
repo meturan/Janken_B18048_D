@@ -41,4 +41,3 @@ String desideCpuHand() {
  else if (cpuHandNum == 1) return "Choki";
  else return "Pa";
 }
-© 2019 GitHub, Inc.
